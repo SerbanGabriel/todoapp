@@ -1,18 +1,18 @@
 import firebase from 'firebase'
 
- var config = {
-    apiKey: "AIzaSyDuoBY6l8kpG88zDnjiVht91uPHpzQxkq4",
-    authDomain: "todoapp-963f5.firebaseapp.com",
-    databaseURL: "https://todoapp-963f5.firebaseio.com",
-    projectId: "todoapp-963f5",
-    storageBucket: "todoapp-963f5.appspot.com",
-    messagingSenderId: "935994449644",
-    appId: "1:935994449644:web:06347e74415bf51e05cfc9",
-    measurementId: "G-D8SEP8QJ5S"
-  };
+var config = {
+  apiKey: "AIzaSyBMeKnfYOfsUh6zv5mWebH8WCTbeFu0LlU",
+  authDomain: "todoapp-b1067.firebaseapp.com",
+  databaseURL: "https://todoapp-b1067.firebaseio.com",
+  projectId: "todoapp-b1067",
+  storageBucket: "todoapp-b1067.appspot.com",
+  messagingSenderId: "285288366587",
+  appId: "1:285288366587:web:08c458824efe37b2734b5e",
+  measurementId: "G-FKFNVJFBQN"
+};
 
 
-  firebase.initializeApp(config);
+firebase.initializeApp(config);
 
 
-  export default firebase
+export default firebase
